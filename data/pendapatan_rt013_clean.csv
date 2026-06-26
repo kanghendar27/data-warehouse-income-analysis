@@ -1,0 +1,51 @@
+id_kk,nama_kk,umur,jenis_kelamin,pendidikan,pekerjaan,lama_bekerja,pendapatan,jumlah_tanggungan,status_rumah,kendaraan,bantuan_sosial,rt,rw,dusun,desa,kecamatan,kabupaten
+101,Asep Saepudin,42,Laki-laki,SMA/Sederajat,Buruh Harian,8,5200000,3,Milik Sendiri,Motor,PKH,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+102,Dede Kusnadi,38,Laki-laki,SMP/Sederajat,Buruh Harian,12,4900000,4,Kontrak,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+103,Enang Suherman,45,Laki-laki,SD/Sederajat,Buruh Harian,20,4800000,5,Milik Sendiri,Motor,BPNT,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+104,Usep Supriatna,35,Laki-laki,SMA/Sederajat,Buruh Harian,5,5500000,2,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+105,Tatang Sumarna,50,Laki-laki,SMP/Sederajat,Buruh Harian,25,5100000,4,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+106,Ade Rohmana,33,Laki-laki,SMA/Sederajat,Buruh Harian,3,5800000,2,Kontrak,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+107,Agus Wibowo,41,Laki-laki,SMA/Sederajat,Buruh Harian,10,6000000,3,Milik Sendiri,Mobil,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+108,Ujang Kosasih,37,Laki-laki,SMP/Sederajat,Buruh Harian,15,5000000,4,Kontrak,Motor,PKH,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+109,Mamat Rahmat,44,Laki-laki,SD/Sederajat,Buruh Harian,22,4850000,6,Milik Sendiri,Motor,BPNT,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+110,Ade Sunarya,31,Laki-laki,SMA/Sederajat,Buruh Harian,4,6200000,1,Kontrak,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+111,Cecep Suhendar,48,Laki-laki,SMP/Sederajat,Buruh Harian,18,5300000,4,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+112,Didin Jaenudin,36,Laki-laki,SMA/Sederajat,Buruh Harian,6,5600000,3,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+113,Encang Kurnia,52,Laki-laki,SD/Sederajat,Buruh Harian,28,4900000,5,Milik Sendiri,Motor,PKH,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+114,Ikin Sodikin,40,Laki-laki,SMA/Sederajat,Buruh Harian,7,6400000,2,Milik Sendiri,Mobil,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+115,Jaja Sukmana,34,Laki-laki,SMP/Sederajat,Buruh Harian,10,5100000,3,Numpang,Motor,BPNT,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+116,Yayan Hidayat,39,Laki-laki,SMA/Sederajat,Buruh Harian,9,5700000,4,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+117,Deden Rustandi,46,Laki-laki,SMP/Sederajat,Buruh Harian,16,5200000,3,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+118,Supriyono,43,Laki-laki,SMA/Sederajat,Buruh Harian,11,5900000,2,Kontrak,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+119,Rohman Setiawan,32,Laki-laki,SMA/Sederajat,Buruh Harian,2,6100000,1,Numpang,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+120,Sadeli Firmansyah,49,Laki-laki,SD/Sederajat,Buruh Harian,24,4800000,5,Milik Sendiri,Motor,PKH,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+121,Wawan Hermawan,30,Laki-laki,SMA/Sederajat,Buruh Harian,2,5600000,2,Numpang,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+122,Asep Mulyadi,47,Laki-laki,SMP/Sederajat,Buruh Harian,20,5000000,4,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+123,Otong Suwandi,55,Laki-laki,SD/Sederajat,Petani,30,2800000,3,Milik Sendiri,Motor,PKH,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+124,Maman Surahman,60,Laki-laki,SMP/Sederajat,Petani,35,2500000,4,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+125,Cucu Sukirman,45,Laki-laki,SMA/Sederajat,Petani,15,3500000,3,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+126,Engkos Koswara,52,Laki-laki,SD/Sederajat,Petani,28,2200000,5,Milik Sendiri,Motor,BPNT,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+127,Dayat Sudrajat,38,Laki-laki,SMP/Sederajat,Petani,10,3200000,2,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+128,Iing Solihin,62,Laki-laki,SD/Sederajat,Petani,40,2000000,4,Milik Sendiri,Motor,PKH,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+129,Komar Komarudin,48,Laki-laki,SMP/Sederajat,Petani,20,3000000,3,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+130,Nana Suryana,41,Laki-laki,SMA/Sederajat,Petani,12,3600000,2,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+131,Ooh Taufik,56,Laki-laki,SD/Sederajat,Petani,32,2400000,5,Milik Sendiri,Motor,BPNT,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+132,Rudi Hartono,35,Laki-laki,SMA/Sederajat,Petani,5,3800000,2,Kontrak,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+133,Yono Prasetyo,50,Laki-laki,SMP/Sederajat,Petani,22,2700000,4,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+134,Aceng Badruzaman,44,Laki-laki,SMA/Sederajat,Petani,14,3400000,3,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+135,Dedi Kurniadi,58,Laki-laki,SD/Sederajat,Petani,35,2100000,6,Milik Sendiri,Mobil,PKH,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+136,Endang Suherlan,37,Laki-laki,SMP/Sederajat,Petani,8,3100000,3,Kontrak,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+137,Iwan Gunawan,53,Laki-laki,SMP/Sederajat,Petani,25,2600000,4,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+138,Nurdin Hidayat,40,Laki-laki,SMA/Sederajat,Petani,10,3700000,2,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+139,Solihin Nawawi,63,Laki-laki,Tidak Sekolah,Petani,45,2000000,5,Milik Sendiri,Tidak Ada,PKH,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+140,Taryono,46,Laki-laki,SMP/Sederajat,Petani,18,2900000,3,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+141,Ade Suryana,39,Laki-laki,SMA/Sederajat,Pedagang,8,4500000,3,Milik Sendiri,Mobil,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+142,Asep Saepuloh,44,Laki-laki,SMA/Sederajat,Pedagang,12,3800000,4,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+143,Ajat Sudrajat,52,Laki-laki,SMP/Sederajat,Pedagang,20,3200000,3,Milik Sendiri,Motor,PKH,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+144,Cecep Kosasih,36,Laki-laki,SMA/Sederajat,Pedagang,5,5000000,2,Kontrak,Mobil,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+145,Darsono Hartono,48,Laki-laki,SMA/Sederajat,Pedagang,15,4200000,4,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+146,Edi Sunardi,33,Laki-laki,SMP/Sederajat,Pedagang,4,3500000,2,Kontrak,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+147,Usep Suryana,55,Laki-laki,SD/Sederajat,Pedagang,25,3000000,5,Milik Sendiri,Motor,BPNT,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+148,Wawan Rustandi,41,Laki-laki,SMA/Sederajat,Pedagang,10,4800000,3,Milik Sendiri,Mobil,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+149,Yadi Mulyadi,37,Laki-laki,SMA/Sederajat,Pedagang,6,4000000,2,Kontrak,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
+150,Yayat Hidayatullah,50,Laki-laki,SMP/Sederajat,Pedagang,18,3600000,4,Milik Sendiri,Motor,Tidak Ada,13,4,Ciranggon,Ciranggon,Majalaya,Karawang
