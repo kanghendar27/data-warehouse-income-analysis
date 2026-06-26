@@ -1,6 +1,8 @@
 # Analisis Pendapatan Kepala Keluarga
 ## RT 013 / RW 004 Dusun Ciranggon, Desa Ciranggon, Kecamatan Majalaya, Kabupaten Karawang
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kanghendar27/data-warehouse-income-analysis/main)
+
 ---
 
 ## 🌐 Demo Online
@@ -84,6 +86,18 @@ Proyek ini menggunakan **Star Schema** sederhana dengan satu fact table dan lima
 | Persentase KK di Bawah UMR | Proporsi KK dengan pendapatan di bawah UMR Kab. Karawang |
 | Distribusi Sektor Pekerjaan | Proporsi KK per sektor pekerjaan utama |
 | Rata-rata Jumlah Tanggungan | Mean anggota keluarga per KK |
+
+## Jalankan Notebook Secara Online
+
+Notebook dapat dijalankan langsung melalui **Binder** tanpa perlu instalasi di komputer lokal. Binder akan membangun environment secara otomatis dan membuka Jupyter Notebook di browser.
+
+Klik badge berikut untuk memulai:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kanghendar27/data-warehouse-income-analysis/main)
+
+Setelah environment siap, buka folder `notebooks/` dan jalankan notebook secara berurutan.
+
+---
 
 ## Cara Menjalankan Secara Lokal
 
