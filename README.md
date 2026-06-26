@@ -1,6 +1,24 @@
 # Analisis Pendapatan Kepala Keluarga
 ## RT 013 / RW 004 Dusun Ciranggon, Desa Ciranggon, Kecamatan Majalaya, Kabupaten Karawang
 
+---
+
+## 🌐 Demo Online
+
+Dashboard Streamlit:  
+[https://dwh-income-analysis.streamlit.app/](https://dwh-income-analysis.streamlit.app/)
+
+Source Code:  
+[https://github.com/kanghendar27/data-warehouse-income-analysis](https://github.com/kanghendar27/data-warehouse-income-analysis)
+
+---
+
+## Dashboard Preview
+
+![Dashboard](charts/dashboard_bi.png)
+
+---
+
 ## Latar Belakang
 
 Pemahaman terhadap profil pendapatan kepala keluarga (KK) di tingkat mikro sangat penting untuk perencanaan pembangunan dan kebijakan sosial yang tepat sasaran. Wilayah RT 013 / RW 004 Dusun Ciranggon merupakan salah satu unit komunitas terkecil yang datanya jarang terdokumentasi secara terstruktur. Proyek ini menggunakan **data dummy** yang dirancang menyerupai kondisi riil untuk tujuan pembelajaran membangun data warehouse dan melakukan analisis Business Intelligence guna menggali pola pendapatan KK di lingkungan tersebut.
@@ -67,29 +85,99 @@ Proyek ini menggunakan **Star Schema** sederhana dengan satu fact table dan lima
 | Distribusi Sektor Pekerjaan | Proporsi KK per sektor pekerjaan utama |
 | Rata-rata Jumlah Tanggungan | Mean anggota keluarga per KK |
 
-## Tools yang Digunakan
+## Cara Menjalankan Secara Lokal
 
-| Tool | Kegunaan |
-|------|----------|
-| **Python 3.11+** | Bahasa pemrograman utama |
-| **Jupyter Notebook / VS Code** | Lingkungan pengembangan interaktif |
-| **Pandas** | Manipulasi dan transformasi data (ETL) |
-| **NumPy** | Komputasi numerik |
-| **Matplotlib** | Visualisasi dan dashboard |
-| **openpyxl** | Export data ke format Excel |
+### Clone Repository
 
-## Struktur Folder
+```bash
+git clone https://github.com/kanghendar27/data-warehouse-income-analysis.git
+cd data-warehouse-income-analysis
+```
+
+### Buat Virtual Environment
+
+```bash
+python -m venv .venv
+```
+
+**Windows:**
+
+```bash
+.venv\Scripts\activate
+```
+
+**Linux / Mac:**
+
+```bash
+source .venv/bin/activate
+```
+
+### Install Dependency
+
+**Notebook:**
+
+```bash
+pip install -r requirements.txt
+```
+
+**Streamlit:**
+
+```bash
+pip install -r requirements_streamlit.txt
+```
+
+### Jalankan Notebook
+
+Urutan:
+
+1. `01_ETL.ipynb`
+2. `02_Exploratory_Data_Analysis.ipynb`
+3. `03_Business_Intelligence_Dashboard.ipynb`
+4. `04_Final_Report.ipynb`
+
+### Jalankan Dashboard
+
+```bash
+streamlit run app.py
+```
+
+## Struktur Project
 
 ```
-uas-data-warehouse/
-├── data/               # Dataset mentah dan hasil olahan (CSV / Excel)
-├── notebooks/          # Jupyter Notebook untuk eksplorasi dan analisis
-├── charts/             # Hasil visualisasi (PNG / SVG)
-├── docs/               # Dokumentasi tambahan
-├── src/                # Kode Python reusable (ETL, helper, config)
-├── requirements.txt    # Library dependencies
-└── README.md           # Dokumentasi proyek (file ini)
+data-warehouse-income-analysis/
+├── app.py                     # Aplikasi Streamlit dashboard
+├── requirements.txt           # Dependency notebook
+├── requirements_streamlit.txt # Dependency Streamlit
+├── .gitignore
+├── README.md
+├── data/
+│   ├── pendapatan_rt013.csv          # Dataset mentah
+│   └── pendapatan_rt013_clean.csv    # Dataset setelah ETL
+├── notebooks/
+│   ├── 01_ETL.ipynb                          # Ekstrak, Transformasi, Load
+│   ├── 02_Exploratory_Data_Analysis.ipynb    # Eksplorasi data
+│   ├── 03_Business_Intelligence_Dashboard.ipynb  # Dashboard BI
+│   └── 04_Final_Report.ipynb                 # Laporan akhir
+├── charts/
+│   ├── dashboard_bi.png              # Dashboard utama
+│   ├── distribusi_pekerjaan.png      # Bar chart pekerjaan
+│   ├── distribusi_pendidikan.png     # Bar chart pendidikan
+│   ├── histogram_pendapatan.png      # Histogram pendapatan
+│   └── pendapatan_per_pekerjaan.png  # Boxplot pendapatan
+├── docs/
+│   ├── DATA_DICTIONARY.md            # Kamus data
+│   └── STAR_SCHEMA.md                # Desain Star Schema
+└── src/                              # (placeholder)
 ```
+
+## Teknologi yang Digunakan
+
+- **Python** — Bahasa pemrograman utama
+- **Pandas** — Manipulasi dan ETL data
+- **Matplotlib** — Visualisasi dan dashboard
+- **OpenPyXL** — Export ke Excel
+- **Jupyter Notebook** — Lingkungan pengembangan interaktif
+- **Streamlit** — Deployment dashboard web
 
 ## Roadmap Pengerjaan
 
@@ -102,3 +190,7 @@ uas-data-warehouse/
 | **Fase 5: ETL** | ETL menggunakan Pandas, load ke SQLite, validasi data |
 | **Fase 6: Business Intelligence Dashboard** | Membuat grafik KPI dan dashboard menggunakan Matplotlib |
 | **Fase 7: Insight & Kesimpulan** | Menyusun insight dan rekomendasi berbasis data |
+
+## Lisensi
+
+Project ini dibuat untuk keperluan pembelajaran pada mata kuliah **Data Warehouse & Business Intelligence**.
