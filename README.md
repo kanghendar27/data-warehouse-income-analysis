@@ -7,11 +7,15 @@
 
 ## 🌐 Demo Online
 
-Dashboard Streamlit:  
-[https://dwh-income-analysis.streamlit.app/](https://dwh-income-analysis.streamlit.app/)
+- **Dashboard Streamlit**  
+  [https://dwh-income-analysis.streamlit.app/](https://dwh-income-analysis.streamlit.app/)
 
-Source Code:  
-[https://github.com/kanghendar27/data-warehouse-income-analysis](https://github.com/kanghendar27/data-warehouse-income-analysis)
+- **Notebook Interaktif (Binder)**  
+  [https://mybinder.org/v2/gh/kanghendar27/data-warehouse-income-analysis/main](https://mybinder.org/v2/gh/kanghendar27/data-warehouse-income-analysis/main)  
+  Binder akan membuat environment secara otomatis. Build pertama biasanya membutuhkan waktu 2–10 menit sebelum notebook siap digunakan.
+
+- **Source Code GitHub**  
+  [https://github.com/kanghendar27/data-warehouse-income-analysis](https://github.com/kanghendar27/data-warehouse-income-analysis)
 
 ---
 
@@ -87,15 +91,13 @@ Proyek ini menggunakan **Star Schema** sederhana dengan satu fact table dan lima
 | Distribusi Sektor Pekerjaan | Proporsi KK per sektor pekerjaan utama |
 | Rata-rata Jumlah Tanggungan | Mean anggota keluarga per KK |
 
-## Jalankan Notebook Secara Online
+## Akses Proyek
 
-Notebook dapat dijalankan langsung melalui **Binder** tanpa perlu instalasi di komputer lokal. Binder akan membangun environment secara otomatis dan membuka Jupyter Notebook di browser.
-
-Klik badge berikut untuk memulai:
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kanghendar27/data-warehouse-income-analysis/main)
-
-Setelah environment siap, buka folder `notebooks/` dan jalankan notebook secara berurutan.
+| Platform | Kegunaan |
+|----------|----------|
+| GitHub | Source code, dokumentasi, dataset |
+| Streamlit | Dashboard Business Intelligence interaktif |
+| Binder | Menjalankan notebook ETL, EDA, Dashboard BI, dan Final Report secara online |
 
 ---
 
